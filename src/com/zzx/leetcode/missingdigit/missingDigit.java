@@ -1,7 +1,7 @@
-package com.zzx.leetcode.missingDigit;
+package com.zzx.leetcode.missingdigit;
 
 /**
- * @ClassName missingDigit
+ * @ClassName missingdigit
  * @Description
  * @Author zhangzx
  * @Date 2019/5/31 14:37
