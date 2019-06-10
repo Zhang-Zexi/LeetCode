@@ -26,5 +26,9 @@ public class removeDuplicates {
         int[] nums = {1, 1, 2};
         Solution solution = new Solution();
         System.out.println(solution.removeDuplicates(nums));
+        System.out.println("how to earn money!!!");
+        System.out.println("how to live");
+        System.out.println("how to happy");
+        System.out.println("how to do something that make me happy");
     }
 }
