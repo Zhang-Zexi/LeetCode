@@ -9,16 +9,17 @@ package com.zzx.leetcode;
  **/
 class Solution1 {
     public int findMaxConsecutiveOnes(int[] nums) {
-        int res = 0, num = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == 1)
-                num++;
-            else {
+        int res = 0;
+        int num = 0;
+        for (int i = 0; i < nums.length; i ++) {
+            if (nums[i] == 1) {
+                num ++;
+            } else {
                 res = num > res ? num : res;
                 num = 0;
             }
         }
-        return res > num ? res : num;
+        return num > res ? num : res;
     }
 }
 public class findMaxConsecutiveOnes {
